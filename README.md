@@ -5,7 +5,8 @@
 
 Prerequisite: 
 
-首先先安装python3.5
+首先先安装
+# python3.5
 
 这个脚本暂时只支持gmail发送！如果不用gmail的小伙伴麻烦注册一下
 
