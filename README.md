@@ -31,7 +31,7 @@ parse_last_name.py这个python文件可以帮你把议员的名字生成一个�
 在directories.txt底下,
 然后复制粘贴到emailList.py　里面进行发送
 
-想改模板的各位可以在Message.txt里面改
+## 想改模板的各位可以在Message.txt里面改
 
 
 
