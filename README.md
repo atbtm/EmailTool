@@ -22,10 +22,13 @@ python3 sendEmail.py
 ```
 
 如果说emailList里面有漏掉什么的某个参议员的邮件的话
-parse_last_name.py这个python文件可以帮你把议员的名字生成一个字典的数据结构
+parse_last_name.py这个python文件可以帮你把议员的名字生成一个字典的数据结构的
 ```
 "{"<last_name>", "<email>"}
 ```
+
+在directories.txt底下,
+然后复制粘贴到emailList.py　里面进行发送
 
 
 
