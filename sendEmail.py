@@ -6,11 +6,11 @@ from time import sleep
 file=open("message.txt", "r")
 message_body = file.read()
 
-email = input("Your email: ")　#邮箱账户
-password = input("You password: ") #邮箱密码
-user_name = input("What is your name(first_name + last_name): ") #邮件结尾最后的名字
+email = input("Your email: ")
+password = input("You password: ")
+user_name = input("What is your name(first_name + last_name): ")
 
-smtpserver = smtplib.SMTP("smtp.gmail.com", 587)　# Gmail的服务器登录
+smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 smtpserver.ehlo()
@@ -26,5 +26,5 @@ for last_name, email in email_list.items():
     print("email for {} has been sent - {}".format(last_name, email))
     sleep(3)
 
-#用完记得disable
+# Remember to disable after running the script
 print("Finish! Make sure go to https://myaccount.google.com/u/1/lesssecureapps to disable less secure!")
